@@ -31,12 +31,12 @@ function myGame(){
             compScoreValue.innerText= compWin;
             spanTag3.innerText = "Computer Wins";
         }
-        else if(computer === 'Scissor'){
+        else if(computer === 'Scissor') {
             userWin = userWin + 1
             userScoreValue.innerText =  userWin;
             spanTag3.innerText = "You Win"; 
         }
-        else{
+        else {
             compWin = compWin + 1;
             userWin = userWin + 1
             compScoreValue.innerText = compWin;
