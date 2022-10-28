@@ -96,7 +96,6 @@ function myGame(){
             spanTag3.innerText = "Match Tie"
         }
     });
-
 }
 
 myGame();
